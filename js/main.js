@@ -11,3 +11,4 @@ navBtn.addEventListener('click', () => {
     }
 })
 
+AOS.init();
