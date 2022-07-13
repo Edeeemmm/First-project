@@ -5,9 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
 
 </head>
 <body>
+    <header class="header">
+        <div class="conteiner">
+            <!-- Header nav -->
+            <div class="header-nav">
+                <a href="#!" class="logo">Edem</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"> <a href="#!" class="nav-link active">Home</a></li>
+                        
+                        <li class="nav-item"> <a href="#works" class="nav-link">Works</a></li>
+                        <li class="nav-item"> <a href="#!" class="nav-link">About</a></li>
+                        <li class="nav-item"> <a href="#contacts" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="nav-button">
+                        <img class="nav-btn-img" src="./img/icon/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Header content -->
+            <div class="header-row">
+                <div class="header-content">
+                    <h1 class="header-heading-name"><span>E</span>dem <span>A</span>bibullaev</h1>  
+                    <h2 class="header-heading-direction">Frontend developer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Quidem iste minus saepe illo modi praesentium, ipsum assumenda hic non fugiat error. 
+                        Aspernatur exercitationem eveniet maxime itaque repudiandae neque, reprehenderit ducimus!</p>
+                </div>
+
+                <div class="header-img">
+                    <picture>
+                        <source media="(max-width: 700px") srcset="./img/header/hero-mobile.png">
+                        <img src="./img/header/hero.png" alt="my foto">
+                    </picture>
+                </div>
+            </div>
+
+        </div>
+    </header>
 
     <script src="./js/main.js"></script>
 </body>
