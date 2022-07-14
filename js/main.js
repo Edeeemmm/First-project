@@ -11,4 +11,7 @@ navBtn.addEventListener('click', () => {
     }
 })
 
-AOS.init();
+AOS.init({
+    disable: 'phone',
+    once: true
+});
